@@ -334,7 +334,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.07, y: 0.17, z: 0}
-  m_LocalScale: {x: 3.7255633, y: 2.5916963, z: 2.5916963}
+  m_LocalScale: {x: 4.0049806, y: 2.688885, z: 2.5916963}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1502,7 +1502,7 @@ MonoBehaviour:
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '{sound(slap)}{effect{die, Temp}}'
+    ccscript: '{sound(slap)}{effect(die, Temp)}'
     actor: {fileID: 8379908}
     waitTime: 0
     requirePrompt: 1
@@ -1640,7 +1640,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1870463869
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1657,7 +1657,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 161.24292, y: -112.45669}
+  m_AnchoredPosition: {x: -34.729828, y: -41.19387}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1870463871
