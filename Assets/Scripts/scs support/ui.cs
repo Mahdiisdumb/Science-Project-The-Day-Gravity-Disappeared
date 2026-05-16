@@ -19,13 +19,16 @@ public class UIController : MonoBehaviour
     public void ShowDialogue(string speaker, string text)
     {
         if (speakerText == null || dialogueText == null)
-        {
-            Debug.LogError("[UI] Missing TMP references");
             return;
-        }
 
         speakerText.text = speaker;
-        speakerText.color = Color.black;   // 🔥 FORCE NAME COLOR BLACK
+        speakerText.color = Color.black;
+        speakerText.colorGradient = new TMPro.VertexGradient(
+            Color.black,
+            Color.black,
+            Color.black,
+            Color.black
+        );
 
         dialogueText.text = text;
     }

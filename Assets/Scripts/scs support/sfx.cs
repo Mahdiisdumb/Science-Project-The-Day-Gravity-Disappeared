@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,6 +17,8 @@ public class SoundController : MonoBehaviour
 
     Dictionary<string, AudioClip> map = new();
 
+    AudioClip currentLoop;
+
     void Awake()
     {
         map.Clear();
@@ -27,18 +30,74 @@ public class SoundController : MonoBehaviour
         }
     }
 
-    public void Play(string id)
+    void ApplyModifiers(string id)
     {
-        if (string.IsNullOrEmpty(id)) return;
+        source.loop = false;
+        source.pitch = 1f;
 
-        id = id.ToLower();
+        if (id.Contains("_lowpitch"))
+            source.pitch = 0.8f;
 
-        if (!map.TryGetValue(id, out var clip))
+        if (id.Contains("_highpitch"))
+            source.pitch = 1.2f;
+    }
+
+    string CleanId(string id)
+    {
+        return id
+            .Replace("_lowpitch", "")
+            .Replace("_highpitch", "")
+            .Replace("_loop", "")
+            .ToLower();
+    }
+
+    public IEnumerator PlayAndWait(string id)
+    {
+        if (string.IsNullOrEmpty(id))
+            yield break;
+
+        bool loop = id.Contains("_loop");
+
+        string clean = CleanId(id);
+
+        if (!map.TryGetValue(clean, out var clip))
         {
             Debug.LogWarning("Missing sound: " + id);
-            return;
+            yield break;
         }
 
-        source.PlayOneShot(clip);
+        ApplyModifiers(id);
+
+        if (loop)
+        {
+            // stop previous loop
+            if (source.isPlaying)
+                source.Stop();
+
+            currentLoop = clip;
+            source.clip = clip;
+            source.loop = true;
+            source.Play();
+
+            yield break; // IMPORTANT: do NOT continue automatically
+        }
+        else
+        {
+            source.loop = false;
+            source.clip = clip;
+            source.Play();
+
+            yield return new WaitForSeconds(clip.length);
+        }
+    }
+
+    public void StopLoop()
+    {
+        if (source.loop)
+        {
+            source.Stop();
+            source.loop = false;
+            currentLoop = null;
+        }
     }
 }

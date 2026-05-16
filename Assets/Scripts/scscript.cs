@@ -13,6 +13,7 @@ public class ScScript : MonoBehaviour
     public UIController ui;
     public AudioSource typeAudio;
     public AudioClip typeClip;
+    public EffectController effectController;
 
     [Header("SYSTEMS")]
     public SoundController soundController;
@@ -47,7 +48,7 @@ public class ScScript : MonoBehaviour
                 break;
 
             case StepType.Sound:
-                soundController?.Play(step.soundId);
+                yield return soundController.PlayAndWait(step.soundId);
                 break;
 
             case StepType.Effect:
@@ -79,7 +80,6 @@ public class ScScript : MonoBehaviour
             if (waitingForPrompt)
                 yield break;
 
-            // INLINE COMMANDS {sound(gasp)}
             if (text[i] == '{')
             {
                 int end = text.IndexOf('}', i);
@@ -113,7 +113,7 @@ public class ScScript : MonoBehaviour
         switch (name)
         {
             case "sound":
-                soundController?.Play(arg);
+                yield return soundController.PlayAndWait(arg);
                 break;
 
             case "pause":
@@ -128,8 +128,15 @@ public class ScScript : MonoBehaviour
                 break;
 
             case "effect":
-                Debug.Log("Effect: " + arg);
-                break;
+                {
+                    string[] parts = arg.Split(',');
+
+                    string fx = parts[0].Trim();
+                    string target = parts.Length > 1 ? parts[1].Trim() : "";
+
+                    effectController?.Play(fx, target);
+                    break;
+                }
         }
     }
 
