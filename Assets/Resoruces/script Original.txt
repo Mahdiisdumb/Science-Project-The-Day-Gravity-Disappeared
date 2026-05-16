@@ -1,0 +1,105 @@
+/*
+/n = line break
+** = act
+"" = diag
+@ = λ(meaning start of diag)
+the gang = Mahdi, Luke, Julain, Cristian
+{} = function call
+
+pause(milsec) = pause before print because each diag print is 10ms
+font(font_style) = font changer (use _ for multi-word styles)
+sound(effect_name) = sound effect player (use _ for multi-word names)
+effect(name) = scene effect system (use _ for multi-word names)
+symbol(pack_name) = random symbol from font pack
+promt = wait for user input for next
+_ = identifier separator (replaces spaces in function names)
+*/
+
+Scene 1{
+Narrator:*fly over Spring Lake Park then fade out in a second to reveal* "The year is 2026" {promt}
+Narrator:*Fly over again to also fade out to reveal* "Four kids are about to ruin everything /n with skibob&yakub secret tech" {promt}
+Narrator:*fly over the gang* "These are the boys that are gonna ruin the {pause(3000)} world{pause(500)}.{pause(500)}.{pause(500)}." {promt}
+Mahdi:*walks over to trash can* "{sound(acquire)}{pause(5000)}" **Mahdi found the "Button Of Doom"**
+Mahdi:*Looks over to the gang* "@Uhh{pause(5000)} I think this Yakub’s secret lab{pause(3000)} thingy in association with skibob???{pause(3500)} what ever the that is..." {promt}
+Luke:*looks at the gang* "@uhh, what's that rumbling?" {promt}
+Random Dog:*{sound(bark)} and then runs into Mahdi and bites the button* {promt}
+Mahdi:*looks at dog* "GAAAH!{sound(OWWW)} {sound(bark)} {sound(gravity-off)}" {promt}
+Narrator:"Well it's all their fault for not being responsible" {promt}
+Cristian:*Looks down* "@Uhh guys{pause(1000)} I think we should look down." {promt}
+Mahdi:*looks down* "@{sound(Orchistra hit patern)} {font(scared)} WHAT IS HAPPENING *wheeze wheeze*" {promt}
+Julian:*looks at mahdi* "{font(normal)}@THS IS ALL {pause(1000)} YOUR {pause(1000)} FAULT!" {promt}
+Narrator:*fades out from scene* "8 Minutes later…" {promt}
+Mahdi:*fade in into the gang* "@ I hope nothing bad happens {pause(3000)}{effect(nighttime)}{pause(1000)}Uhhh I think the sun is not reaching us anymore." {promt}
+Luke:*looks around* "@I agree with Julian.{pause(1000)} Its really your fault Mahdi." {promt}
+Narrator:*fade out* "That does it for the gang." {promt}
+Narrator:"an hour later." {promt}
+}
+
+Scene 2{
+Narrator:*fade in space camera at the gang* "Look at these idiots or shall I say{pause(1000)} IMBICILES!" {promt}
+Mahdi:*Looks at the sun with solar glasses the sun explodes* "{sound(spooky)}@Yea is it just me or is it cold like -9 to the power of -9 cold" {promt}
+Cristian:*looks at Mahdi* "{sound(CR-anger-sfx)}@OF COURSE IT IS IDIOT! THE SUN EXPLODED BECAUSE OF YOU" {promt}
+Luke:*Looks at Cristian* "@Dude, it's not that serious." {promt}
+Julian:*Looks at Luke* "@{sound(white-noise[30second])}It is serious Luke you bum." {promt}
+Luke:*Look turns to julian* "{sound(party_mus)}@I love amsterdam shrimp sales there so cool!" {promt}
+Julian:*Ceases the music* "@YOU IDIOT WHY ARE YOU TALKING ABOUT AMSTERDAN SHRIMP SALES!?{pause(1000)} AMSTERDAM DOESN'T EXIST ANYMORE!” {promt}
+Cristian:*Turns to correct to correct julian* "@Erm ACTUALLY!{pause(3000)}{sound(nerd)} amsterdam does indeed exist! because-" 
+Mahdi:*Yells at Cristian* "@YOUR NOT BECOMING ME!{pause(1000)} I AM FLUENT IN C++{sound(gasp)} I DON'T WANNA HEAR IT!" {promt}
+Luke:*Looks at gang* "{sound(resigned_sigh)}{symbol(sad-emoticon)}" {promt}
+Mahdi:*Pulls out phone* "@THATS IT {sound(RBLXWAPP-ANGR-LOWPITCH)} IM PLAYING ANGRY BRIDS STAR WARS I!" {promt}
+Julian:*slaps mahdi* "@{sound(wound)}{sound(jullian-spam-ng_mus_loop)}" {promt} 
+UrineFigure:*Arrives* "{sound(pis-arrive)}{font(pis-font)}@FOOL{sound(piss_ambince)}{sound(piss_mus_loop)} I{pause(1000)} HAVE ARRIVED!{font(normal)}" {promt} 
+Mahdi:*gets scared* "@{sound(laugh_uncertain)} OH MY GOD!{pause(1000)} ITS THE URINE FIGURE!{pause(1000)} THE GUY FROM MY NIGHTMARES!" {promt}
+Luke:*turns to mahdi* "@Bro I think your hallucinating" {promt}
+Luke:*turns around* "@{sound(gasp)}HES REAL! UNLIKE HIS DREAMS HE IS-REAL{symbol(wink)}" {promt}
+Julian:*Gets an idea* "@{ace-attorney-ding} WAIT!{pause(1000)} If theres no gravity.{pause(1000)} we just slap him away" {promt}
+UrineFigure:*Produces a stinky smell* "{font(pis-font)}@THAT IS A FUITILE ATTEMPT!{pause(1000)} ARE YOU AN IDIOT TO THINK THAT YOU CAN SLAP ME AWAY!{pause(1000)} YOUR FOOLISH!{font(normal)}" {promt}
+Cristian:*slap UrineFigure{sound(snare)}* "@Well that does it." {promt}
+Mahdi:*Looks around* "@Hey uhh i just realized that the planets are out of orbit like look at poor pluto its almost non existent" {prompt}
+Cristian:*{sound(concept_alert)}* "@Huh thats intresting" {promt}
+Luke:*asteroid flies close to Luke* "@{sound(concept_grasped)} Wait!{pause(1000)} Since gravity is gone the entire asteroid belt is broken!" {promt}
+Mahdi:*Turns to luke and starts acting sassy* "@WELL{pause(300)}L{pause(300)}L THANK YOU CAPTAIN OBVOIUS!{sound(owww)}" {promt}
+Julian:*turns to gang* "Intresting." {promt}
+Cristian:*Realisation* "{sound(Orchistra hit patern)}@WOAH." {promt}
+Mahdi:*turns to the milkway* "@yea guys i think we should leave to see what happened to the galaxy and what not."
+Mahdi:*Dashes away {sound(dash)}*
+Luke:*prepares* "@Yea lets go {sound(dash)}"
+Julian & Cristian:*Follows also sound(dash)*
+Narrator:*fades scene to black* "Well I guess that's over"
+Narrator:"Now we'll go to see what happens"
+}
+
+Scene 3{
+Narrator:*Fades in into the gang* "Ahh here are the IMBICILES AGAIN{sound(gasp)}"
+Mahdi:*looks a the destroyed milky way* "@{sound(gasp)} ARE WE SERIOUS!" {promt}
+Julian:*{sound(julian-spam)}* {pause(1000)}
+Cristian:*Ceases julian spam* "@SHUSH JULIAN" {promt}
+Luke:*Looks at mahdi* "@Wait behind you!" {promt}
+Julian:*Looks over there* "!{pause(1000)}!{pause(1000)}!{pause(1000)}!" {promt}
+UrineFigure:*Arrives* "{sound(pis-arrive)}{sound pis-ambience_loop pis-ambeince_loop)}{font(pis-font)} AHA!" {promt}
+UrineFigure:*sound{RBLXWAPP-anger-LOWPITCH}* "@WHY WOULD YOU IDIOTS AND YES IDIOTS! SLAP ME.{pause(1000)} DONT YOU CHILDREN KNOW THAT ITS IMPROPER!?{font(normal)}" {promt}
+Cristian:*Looks at the UrineFigure* "@{font(scared)}{sound(gasp)} YOU...{pause(1000)} YOU!!"
+UrineFigure:*Looks at Cristian* "@WHAT!?{pause(1000)} ARE YOU GONNA SLAP ME AGAIN!?{pause(1000)} GO AHEAD!{pause(1000)} TRY IT!{font(normal)}" {promt}
+Mahdi:*Looks at UrineFigure* "@{sound(laugh_uncertain)} OH MY GOD!{pause(1000)} ITS THE URINE FIGURE!{pause(1000)}HE CAME AGAIN!" {promt}
+Julian:*Looks at mahdi*"@{sound(julian-spam)}OOH MY GOD MAHDI ARE YOU SLOW?!" {promt}
+Mahdi:*looks at julian* "@{sound(owww)}I mean your not wrong." {promt}
+Luke:*Looks at UrineFigure* "@Bro so anyway UrineFigure look around" {promt}
+UrineFigure:*Looks around* "@WHAT!?{pause(1000)} WHY WOULD I WANT TO LOOK AROUND!?{pause(1000)} I KNOW EXACTLY WHAT HAPPENED!{pause(1000)} I KNOW EXACTLY WHAT YOU DID!{pause(1000)} I KNOW EXACTLY WHY THE SUN EXPLODED!.{pause(1000)} O{pause(1000)}HHHHHHHH. /n WE ARE OUTSIDE THE MILKY WAY AND EVERY GALAXY IS SPLITTING APART!{font(normal)}" {promt}
+Mahdi:*Looks at UrineFigure* "@{sound(sigh)} Finally you idiot!" {promt}
+UrineFigure:*Looks at Mahdi* "{font(pis-font)}{sound(evil-laugh)} I HAVE CREATED A DEVICE I CALL THE ZERO-POINT-ENERGY-FIELD-MINIPULATOR!{sound(pis-man-arrives_LOWPITCH)} Or you can call it the gravity gun{font(normal)}" {promt}
+Mahdi:*Looks at UrineFigure* "@{sound(gasp)} WHAT!?{pause(1000)} THAT'S THE NAME OF THE GRAVITY GUN IN HALF LIFE! /n {pause(1000)} but you said 'Gravity gun' meaning it needs gravity but there is none!{sound(concept-alert)}" {promt}
+Luke:*Looks at mahdi*"@YOUR RIGHT!{sound(concept-grasped)} if there is no gravity then the gravity gun won't work! because it pulls physics objects toward itself and then could fling them!" {promt}
+UrineFigure:*Looks at gang*"{font(pis-font)}{sound(evil-laugh)}YOU IDIOTS!{pause(1000)} THIS IS A ZERO POINT ENERGY FIELD MINIPULATOR!{pause(1000)} THEREFORE IT DOESN'T NEED GRAVITY BECUASE IT GENERATES ITS OWN FORCE THAT PULLS!{font(normal)}" {promt}
+Mahdi:*Looks at UrineFigure* "@{sound(gasp)} WHAT!?{pause(1000)} THAT'S EVEN WORSE!{pause(1000)} THAT MEANS YOU CAN PULL ANYTHING TOWARDS YOU!{sound(concept-alert)}" {promt}
+Luke:*Looks at UrineFigure* "@{sound(sigh)}Mahdi this just means even though gravity doesnt exist hes emulating gravity using magnetic fields idiot.{pause(1000)} You know what emulation is dont you Mahdi, it basically means hes emulating gravity with forcefields{sound(concept-grasped)}" {promt}
+Mahdi:*Looks at Luke* "@{sound(concept-grasped)} I know what emulation is!{pause(1000)} I just said that!{sound(sigh)}" {promt}
+UrineFigure:*Looks at gang* "{font(pis-font)}{sound(evil-laugh)} I CAN PULL ANYTHING TOWARDS ME!{pause(1000)} INCLUDING YOU!" {promt}
+UrineFigure:"{sound(evil-laugh)}@ and the exhaust means I could KILL YOU! {font(normal)}" {promt}
+Mahdi:*objects* "@Uhh The entire class is watching this. {pause(1000)}I broke the fourth wall just to tell you Urine Figure that no, don't try to kill us, that's not school appropriate I think." {promt}
+UrineFigure:*turns to the camera* "{font(pis-font)}{sound(sigh)}You guys are ruining the fun i guess ill change my gravity gun from killer mode to just bye bye mode" {promt}
+{sound(tinker_2)}
+UrineFigure:*Turns to gang*"{font(pis-font)}@Back to where i was{sound(evil-laugh)} PREPARE TO GET YEETED INTO OBLIVION!" {promt}
+Mahdi:"@Wait what?"
+*the entire gang flies {sound(gravity-gun)} into the void*
+narrator:*fade out*"The end for these imbeciles"
+}
