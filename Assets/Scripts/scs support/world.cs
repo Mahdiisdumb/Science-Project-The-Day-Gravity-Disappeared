@@ -1,8 +1,5 @@
 using UnityEngine;
-
-[System.Serializable]
-public class WorldRef
+public class WorldRef : MonoBehaviour
 {
     public string id;
-    public Transform transform;
 }

@@ -25,6 +25,8 @@ public class UIController : MonoBehaviour
         }
 
         speakerText.text = speaker;
+        speakerText.color = Color.black;   // 🔥 FORCE NAME COLOR BLACK
+
         dialogueText.text = text;
     }
 

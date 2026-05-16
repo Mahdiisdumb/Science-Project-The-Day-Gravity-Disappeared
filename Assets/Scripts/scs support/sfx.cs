@@ -18,20 +18,27 @@ public class SoundController : MonoBehaviour
 
     void Awake()
     {
+        map.Clear();
+
         foreach (var s in sounds)
+        {
+            if (s == null || s.clip == null) continue;
             map[s.id.ToLower()] = s.clip;
+        }
     }
 
     public void Play(string id)
     {
+        if (string.IsNullOrEmpty(id)) return;
+
         id = id.ToLower();
 
-        if (!map.ContainsKey(id))
+        if (!map.TryGetValue(id, out var clip))
         {
             Debug.LogWarning("Missing sound: " + id);
             return;
         }
 
-        source.PlayOneShot(map[id]);
+        source.PlayOneShot(clip);
     }
 }

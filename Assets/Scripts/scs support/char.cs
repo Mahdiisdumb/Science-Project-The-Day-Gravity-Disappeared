@@ -1,9 +1,5 @@
 using UnityEngine;
-
-[System.Serializable]
-public class CharacterRef
+public class CharacterRef : MonoBehaviour
 {
     public string id;
-    public Transform transform;
-    public Animator animator;
 }
