@@ -1291,6 +1291,10 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: d659f3bd876cc02448d52b20d9707676, type: 3}
   - id: slap
     clip: {fileID: 8300000, guid: 7b14981d47cd2bf4d80bb6fff744dafe, type: 3}
+  - id: a
+    clip: {fileID: 8300000, guid: 563197eb0d5b1064fa78bdd5cbc42afe, type: 3}
+  - id: b
+    clip: {fileID: 8300000, guid: 5befb2360abfcd040ba02cfe1d6b3cc5, type: 3}
 --- !u!1 &1359718736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1502,8 +1506,15 @@ MonoBehaviour:
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '{sound(slap)}{effect(die, Temp)}'
+    ccscript: '{sound(a)}{sound(slap)}@AUGGHHHHHHHHHHHHH!{effect(die, Temp)}'
     actor: {fileID: 8379908}
+    waitTime: 0
+    requirePrompt: 1
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '{sound(b)}@End of ScS(scene character script) test'
+    actor: {fileID: 1359718738}
     waitTime: 0
     requirePrompt: 1
     soundId: 

@@ -49,7 +49,7 @@ public class SpriteAutoSlicer : EditorWindow
             {
                 SpriteMetaData smd = new SpriteMetaData
                 {
-                    name = $"mahdi_{index}",
+                    name = $"char_{index}",
                     rect = new Rect(
                         x * cellWidth,
                         y * cellHeight,
