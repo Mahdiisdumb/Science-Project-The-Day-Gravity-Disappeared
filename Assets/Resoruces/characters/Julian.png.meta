@@ -1,46 +1,46 @@
 fileFormatVersion: 2
-guid: 50ce36b7c8a751046813ce47620de209
+guid: 1b82047918c52c54fb664d2ebe2b667d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4714818855298829829
-    second: template orgin_0
+      213: 7420257206372633983
+    second: Julian_0
   - first:
-      213: 3192044124022620019
-    second: template orgin_1
+      213: 944319342279980099
+    second: Julian_1
   - first:
-      213: -4637212164942592034
-    second: template orgin_2
+      213: 3041396897267957408
+    second: Julian_2
   - first:
-      213: 724397308863940701
-    second: template orgin_3
+      213: 2608341869493440945
+    second: Julian_3
   - first:
-      213: 6319679262963698379
-    second: template orgin_4
+      213: -5275363482130454699
+    second: Julian_4
   - first:
-      213: 6316330602375554940
-    second: template orgin_5
+      213: -5136237750588157141
+    second: Julian_5
   - first:
-      213: 1757541671941251339
-    second: template orgin_6
+      213: 1544948823204717228
+    second: Julian_6
   - first:
-      213: 3731215996198417742
-    second: template orgin_7
+      213: 8241085703307457596
+    second: Julian_7
   - first:
-      213: 6030271290350921672
-    second: template orgin_8
+      213: 6673011802400448984
+    second: Julian_8
   - first:
-      213: 8222307567840442747
-    second: template orgin_9
+      213: -3452302037472038485
+    second: Julian_9
   - first:
-      213: -6549015472032251136
-    second: template orgin_10
+      213: 7823262771735123673
+    second: Julian_10
   - first:
-      213: 8523688448179409626
-    second: template orgin_11
+      213: -97908244641187373
+    second: Julian_11
   - first:
-      213: 5636766967761925251
-    second: template orgin_12
+      213: 8372860698581761610
+    second: Julian_12
   - first:
       213: -8360621857648827146
     second: char_0
@@ -214,9 +214,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 72
-        width: 16
-        height: 24
+        y: 1215
+        width: 270
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +235,10 @@ TextureImporter:
       name: char_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 72
-        width: 16
-        height: 24
+        x: 270
+        y: 1215
+        width: 270
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,10 +257,10 @@ TextureImporter:
       name: char_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 72
-        width: 16
-        height: 24
+        x: 540
+        y: 1215
+        width: 270
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +279,10 @@ TextureImporter:
       name: char_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 72
-        width: 16
-        height: 24
+        x: 810
+        y: 1215
+        width: 270
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,9 +302,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 16
-        height: 24
+        y: 810
+        width: 270
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: char_5
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 24
+        x: 270
+        y: 810
+        width: 270
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -345,10 +345,10 @@ TextureImporter:
       name: char_6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 24
+        x: 540
+        y: 810
+        width: 270
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -367,10 +367,10 @@ TextureImporter:
       name: char_7
       rect:
         serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 24
+        x: 810
+        y: 810
+        width: 270
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,9 +390,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 24
-        width: 16
-        height: 24
+        y: 405
+        width: 270
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -411,10 +411,10 @@ TextureImporter:
       name: char_9
       rect:
         serializedVersion: 2
-        x: 16
-        y: 24
-        width: 16
-        height: 24
+        x: 270
+        y: 405
+        width: 270
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,10 +433,10 @@ TextureImporter:
       name: char_10
       rect:
         serializedVersion: 2
-        x: 32
-        y: 24
-        width: 16
-        height: 24
+        x: 540
+        y: 405
+        width: 270
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,10 +455,10 @@ TextureImporter:
       name: char_11
       rect:
         serializedVersion: 2
-        x: 48
-        y: 24
-        width: 16
-        height: 24
+        x: 810
+        y: 405
+        width: 270
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,8 +479,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 24
+        width: 270
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,10 +499,10 @@ TextureImporter:
       name: char_13
       rect:
         serializedVersion: 2
-        x: 16
+        x: 270
         y: 0
-        width: 16
-        height: 24
+        width: 270
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -521,10 +521,10 @@ TextureImporter:
       name: char_14
       rect:
         serializedVersion: 2
-        x: 32
+        x: 540
         y: 0
-        width: 16
-        height: 24
+        width: 270
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -543,10 +543,10 @@ TextureImporter:
       name: char_15
       rect:
         serializedVersion: 2
-        x: 48
+        x: 810
         y: 0
-        width: 16
-        height: 24
+        width: 270
+        height: 405
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -565,7 +565,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0e9a2807821da1a47b97fb54e7f1fd73
     internalID: 0
     vertices: []
     indices: 
@@ -575,6 +575,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Julian_0: 7420257206372633983
+      Julian_1: 944319342279980099
+      Julian_10: 7823262771735123673
+      Julian_11: -97908244641187373
+      Julian_12: 8372860698581761610
+      Julian_2: 3041396897267957408
+      Julian_3: 2608341869493440945
+      Julian_4: -5275363482130454699
+      Julian_5: -5136237750588157141
+      Julian_6: 1544948823204717228
+      Julian_7: 8241085703307457596
+      Julian_8: 6673011802400448984
+      Julian_9: -3452302037472038485
       char_0: -8360621857648827146
       char_1: -105911007907788231
       char_10: -1818077472068935645
@@ -591,19 +604,6 @@ TextureImporter:
       char_7: -7176917580659845818
       char_8: -5043888605235722714
       char_9: -2058226634486451076
-      template orgin_0: 4714818855298829829
-      template orgin_1: 3192044124022620019
-      template orgin_10: -6549015472032251136
-      template orgin_11: 8523688448179409626
-      template orgin_12: 5636766967761925251
-      template orgin_2: -4637212164942592034
-      template orgin_3: 724397308863940701
-      template orgin_4: 6319679262963698379
-      template orgin_5: 6316330602375554940
-      template orgin_6: 1757541671941251339
-      template orgin_7: 3731215996198417742
-      template orgin_8: 6030271290350921672
-      template orgin_9: 8222307567840442747
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
