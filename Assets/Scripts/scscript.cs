@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ScScript : MonoBehaviour
 {
@@ -135,6 +136,12 @@ public class ScScript : MonoBehaviour
                     string target = parts.Length > 1 ? parts[1].Trim() : "";
 
                     effectController?.Play(fx, target);
+                    break;
+                }
+            case "scene":
+                {
+                    int sceneIndex = int.Parse(arg.Trim());
+                    SceneManager.LoadScene(sceneIndex);
                     break;
                 }
         }

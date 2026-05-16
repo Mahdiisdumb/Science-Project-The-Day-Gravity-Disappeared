@@ -1519,6 +1519,13 @@ MonoBehaviour:
     requirePrompt: 1
     soundId: 
     effectId: 
+  - type: 0
+    ccscript: '{scene(0)}'
+    actor: {fileID: 1359718738}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
   ui: {fileID: 748859234}
   typeAudio: {fileID: 1160722897}
   typeClip: {fileID: 8300000, guid: 01549fad858fc7f4d8293c5209a988de, type: 3}
