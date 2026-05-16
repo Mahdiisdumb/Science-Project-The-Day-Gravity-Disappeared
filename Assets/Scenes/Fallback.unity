@@ -119,135 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &8379904
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8379907}
-  - component: {fileID: 8379906}
-  - component: {fileID: 8379905}
-  - component: {fileID: 8379908}
-  m_Layer: 0
-  m_Name: Temp
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!95 &8379905
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8379904}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4cd0cbbe7a56be34e88ba07b0203de62, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!212 &8379906
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8379904}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -1
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: 9084002195619694318, guid: 98e662f0119c9a247badf0ac242d492a, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.7, y: 4.05}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!4 &8379907
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8379904}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 495.89264, y: -90.40494, z: -3489.42}
-  m_LocalScale: {x: 38.771336, y: 38.771336, z: 38.771336}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1944939508}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8379908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8379904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddc00d530493b8f4fb7f6a16d421725d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CharacterRef
-  id: Temp
-  animator: {fileID: 8379905}
 --- !u!1 &143771425
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,8 +241,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EffectController
   characters:
   - {fileID: 1359718738}
-  - {fileID: 8379908}
-  - {fileID: 1870463875}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!4 &174810516
 Transform:
   m_ObjectHideFlags: 0
@@ -1279,21 +1150,19 @@ MonoBehaviour:
   sounds:
   - id: gasp
     clip: {fileID: 8300000, guid: 50a909461c99fc4439c56b3659f365ca, type: 3}
-  - id: Grav
-    clip: {fileID: 8300000, guid: 81c0aefca242d2044bef085bb89fa16e, type: 3}
-  - id: arr
-    clip: {fileID: 8300000, guid: b1db08409026359408b7f7353f988143, type: 3}
-  - id: Cocnept
-    clip: {fileID: 8300000, guid: e9c3a24f931dfb6449a6a828a6f5a7e7, type: 3}
-  - id: Laugh
-    clip: {fileID: 8300000, guid: 5f384893015e8cb499621487cf48caa2, type: 3}
-  - id: boss
-    clip: {fileID: 8300000, guid: d659f3bd876cc02448d52b20d9707676, type: 3}
-  - id: slap
+  - id: Greats
+    clip: {fileID: 8300000, guid: 8cdba6527de16d8459050416d67960ae, type: 3}
+  - id: great
+    clip: {fileID: 8300000, guid: d898b20cce831b542b9b1bf142da6874, type: 3}
+  - id: snare
     clip: {fileID: 8300000, guid: 7b14981d47cd2bf4d80bb6fff744dafe, type: 3}
-  - id: a
-    clip: {fileID: 8300000, guid: 563197eb0d5b1064fa78bdd5cbc42afe, type: 3}
-  - id: b
+  - id: uhoh
+    clip: {fileID: 8300000, guid: b1db08409026359408b7f7353f988143, type: 3}
+  - id: ding
+    clip: {fileID: 8300000, guid: e9c3a24f931dfb6449a6a828a6f5a7e7, type: 3}
+  - id: sigh
+    clip: {fileID: 8300000, guid: d621fbb003cbb4343b36d1d509b08129, type: 3}
+  - id: under
     clip: {fileID: 8300000, guid: 5befb2360abfcd040ba02cfe1d6b3cc5, type: 3}
 --- !u!1 &1359718736
 GameObject:
@@ -1470,50 +1339,116 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScScript
   steps:
   - type: 0
-    ccscript: '{effect(fadein,Narr)}OMG!'
-    actor: {fileID: 1870463875}
-    waitTime: 0
-    requirePrompt: 1
-    soundId: 
-    effectId: 
-  - type: 0
-    ccscript: '{effect(idle, Mahdi)}@Hi{sound(Grav)} Me Happy To See you'
+    ccscript: '{sound(gasp)}@Your probably wondering why does this look so bad?'
     actor: {fileID: 1359718738}
     waitTime: 0
     requirePrompt: 1
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '{effect(swoop, Temp)}@Tis I{sound(arr)}'
-    actor: {fileID: 8379908}
-    waitTime: 0
-    requirePrompt: 1
-    soundId: 
-    effectId: 
-  - type: 0
-    ccscript: '{effect(turn, Mahdi)}@Who is YOU?{sound(Cocnept)}'
+    ccscript: '@Because your in fallback mode because i didnt finish this in time
+      wow{sound(great)}{sound(Greats)}'
     actor: {fileID: 1359718738}
     waitTime: 0
     requirePrompt: 1
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '@Who is me?!{sound(Laugh)}{sound(boss_loop)}{pause(1000)}I AM A LIVING
-      NIGHTMARE ILL KILL YOU!'
-    actor: {fileID: 8379908}
+    ccscript: '@I call this fallback mode.'
+    actor: {fileID: 1359718738}
     waitTime: 0
     requirePrompt: 1
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '{sound(a)}{sound(slap)}@AUGGHHHHHHHHHHHHH!{effect(die, Temp)}'
-    actor: {fileID: 8379908}
+    ccscript: '@no skit no nothing just some movement noises and what not'
+    actor: {fileID: 1359718738}
     waitTime: 0
     requirePrompt: 1
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '{sound(b)}@End of ScS(scene character script) test'
+    ccscript: '@So if gravity was gone well'
+    actor: {fileID: 1359718738}
+    waitTime: 0
+    requirePrompt: 1
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@itll take 8 minutes for us to die yes literally{sound(snare)}'
+    actor: {fileID: 1359718738}
+    waitTime: 0
+    requirePrompt: 1
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@with that the orbit collapses,'
+    actor: {fileID: 1359718738}
+    waitTime: 0
+    requirePrompt: 1
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@the sun literally also collpases'
+    actor: {fileID: 1359718738}
+    waitTime: 0
+    requirePrompt: 1
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@and the entire universe as a whole will collapse'
+    actor: {fileID: 1359718738}
+    waitTime: 0
+    requirePrompt: 1
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '{sound(uhoh_lowpitch)}@sad right?'
+    actor: {fileID: 1359718738}
+    waitTime: 0
+    requirePrompt: 1
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@now if theoritcally we were invivincable{sound(ding)}'
+    actor: {fileID: 1359718738}
+    waitTime: 0
+    requirePrompt: 1
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@then therefore youll be obvuisly in surious pain{pause(1000)} like
+      everything burns'
+    actor: {fileID: 1359718738}
+    waitTime: 0
+    requirePrompt: 1
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@and youll be lonley{pause(500)} *AHEM*{pause(1000)} like super lonley
+      because no one is invincible{sound(sigh)}'
+    actor: {fileID: 1359718738}
+    waitTime: 0
+    requirePrompt: 1
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@and youll be left with alot of pain and suffering with basically
+      no mercy{sound(uhoh)}{sound(under)}'
+    actor: {fileID: 1359718738}
+    waitTime: 0
+    requirePrompt: 1
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@anyways bye thats it really.'
+    actor: {fileID: 1359718738}
+    waitTime: 0
+    requirePrompt: 1
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '{scene(0)}'
     actor: {fileID: 1359718738}
     waitTime: 0
     requirePrompt: 1
@@ -1631,136 +1566,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753896446}
   m_CullTransparentMesh: 1
---- !u!1 &1870463868
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1870463869}
-  - component: {fileID: 1870463872}
-  - component: {fileID: 1870463871}
-  - component: {fileID: 1870463875}
-  - component: {fileID: 1870463874}
-  - component: {fileID: 1870463873}
-  m_Layer: 5
-  m_Name: Narr
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1870463869
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870463868}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 19, y: 19, z: 19}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1944939508}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -34.729828, y: -41.19387}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1870463871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870463868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1870463872
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870463868}
-  m_CullTransparentMesh: 1
---- !u!95 &1870463873
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870463868}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3e8c2ddd68eb3c843ad39166e19935b1, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!111 &1870463874
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870463868}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Animation: {fileID: 7400000, guid: ff0c06c5b3e617449bc6596582b5ff5b, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_UpdateMode: 0
-  m_CullingType: 0
---- !u!114 &1870463875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870463868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddc00d530493b8f4fb7f6a16d421725d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CharacterRef
-  id: Narr
-  animator: {fileID: 1870463873}
 --- !u!1 &1922926757
 GameObject:
   m_ObjectHideFlags: 0
@@ -1962,10 +1767,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 434388145}
-  - {fileID: 8379907}
   - {fileID: 1359718737}
   - {fileID: 1922926758}
-  - {fileID: 1870463869}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
