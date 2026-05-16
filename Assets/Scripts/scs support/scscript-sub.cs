@@ -13,10 +13,11 @@ public class SequenceStep
 
     public float waitTime = 1f;
 
+    [Header("AUTO")]
     public bool requirePrompt;
 
-    public string soundId;
-    public string effectId;
+    [HideInInspector] public string soundId;
+    [HideInInspector] public string effectId;
 }
 
 public enum StepType
@@ -26,4 +27,3 @@ public enum StepType
     Sound,
     Effect
 }
-
