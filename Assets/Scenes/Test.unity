@@ -1295,6 +1295,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 563197eb0d5b1064fa78bdd5cbc42afe, type: 3}
   - id: b
     clip: {fileID: 8300000, guid: 5befb2360abfcd040ba02cfe1d6b3cc5, type: 3}
+  - id: yay
+    clip: {fileID: 8300000, guid: 116eb14ec670c714bb719d6011ea0826, type: 3}
 --- !u!1 &1359718736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1499,10 +1501,17 @@ MonoBehaviour:
     effectId: 
   - type: 0
     ccscript: '@Who is me?!{sound(Laugh)}{sound(boss_loop)}{pause(1000)}I AM A LIVING
-      NIGHTMARE ILL KILL YOU!'
+      NIGHTMARE!{pause(600)} I''LL KILL YOU!'
     actor: {fileID: 8379908}
     waitTime: 0
     requirePrompt: 1
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@Uhh I dont really think so.{pause(1000)} I think i could just.{pause(1000)}'
+    actor: {fileID: 1359718738}
+    waitTime: 0
+    requirePrompt: 0
     soundId: 
     effectId: 
   - type: 0
@@ -1513,10 +1522,10 @@ MonoBehaviour:
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '{sound(b)}@End of ScS(scene character script) test'
+    ccscript: '@Ironic i killed him{sound(yay_loop)}{effect(spin, Mahdi)}{promt}'
     actor: {fileID: 1359718738}
     waitTime: 0
-    requirePrompt: 1
+    requirePrompt: 0
     soundId: 
     effectId: 
   - type: 0

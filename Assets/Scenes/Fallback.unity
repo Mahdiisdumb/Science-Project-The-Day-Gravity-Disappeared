@@ -892,6 +892,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: d621fbb003cbb4343b36d1d509b08129, type: 3}
   - id: under
     clip: {fileID: 8300000, guid: 5befb2360abfcd040ba02cfe1d6b3cc5, type: 3}
+  - id: laugh
+    clip: {fileID: 8300000, guid: 5f384893015e8cb499621487cf48caa2, type: 3}
 --- !u!1 &1359718736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1303,6 +1305,20 @@ MonoBehaviour:
     effectId: 
   - type: 0
     ccscript: '@anyways bye thats it really.'
+    actor: {fileID: 1359718738}
+    waitTime: 0
+    requirePrompt: 1
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@These grammatical errors in these sentances are here because.'
+    actor: {fileID: 1359718738}
+    waitTime: 0
+    requirePrompt: 1
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@Im just mad bro{sound(laugh)} MY TEAM DID NOTING!'
     actor: {fileID: 1359718738}
     waitTime: 0
     requirePrompt: 1
