@@ -41,6 +41,54 @@ TextureImporter:
   - first:
       213: 6937402414553947863
     second: cristian_12
+  - first:
+      213: -8360621857648827146
+    second: char_0
+  - first:
+      213: -105911007907788231
+    second: char_1
+  - first:
+      213: -2554822408315757945
+    second: char_2
+  - first:
+      213: -4484386481748707659
+    second: char_3
+  - first:
+      213: -5703411853449480706
+    second: char_4
+  - first:
+      213: -3215313362485883606
+    second: char_5
+  - first:
+      213: -405539212965888768
+    second: char_6
+  - first:
+      213: -7176917580659845818
+    second: char_7
+  - first:
+      213: -5043888605235722714
+    second: char_8
+  - first:
+      213: -2058226634486451076
+    second: char_9
+  - first:
+      213: -1818077472068935645
+    second: char_10
+  - first:
+      213: -1953130723355980962
+    second: char_11
+  - first:
+      213: 7313778987236991310
+    second: char_12
+  - first:
+      213: 7313408716042973088
+    second: char_13
+  - first:
+      213: -3727999686058157814
+    second: char_14
+  - first:
+      213: 49096738397806095
+    second: char_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -162,287 +210,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cristian_0
+      name: char_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 71
-        width: 33
-        height: 24
+        y: 1215
+        width: 270
+        height: 405
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa89de09f719d5450800000000000000
-      internalID: 6079175049098401962
+      spriteID: 6f4a97987ba19fb80800000000000000
+      internalID: -8360621857648827146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cristian_1
+      name: char_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1215
+        width: 270
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a4adbdf7ab78ef0800000000000000
+      internalID: -105911007907788231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1215
+        width: 270
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a91204e827b8cd0800000000000000
+      internalID: -2554822408315757945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_3
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1215
+        width: 270
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6fdcf014244c1c0800000000000000
+      internalID: -4484386481748707659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 47
-        width: 48
-        height: 25
+        y: 810
+        width: 270
+        height: 405
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f1e77ca13a95eb330800000000000000
-      internalID: 3728516098573172255
+      spriteID: ef53463232969d0b0800000000000000
+      internalID: -5703411853449480706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cristian_2
+      name: char_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 71
-        width: 17
-        height: 23
+        x: 270
+        y: 810
+        width: 270
+        height: 405
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53c24b7eef79a3220800000000000000
-      internalID: 2466450867003599925
+      spriteID: a2d46734889e063d0800000000000000
+      internalID: -3215313362485883606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cristian_3
+      name: char_6
       rect:
         serializedVersion: 2
-        x: 47
-        y: 71
-        width: 17
-        height: 25
+        x: 540
+        y: 810
+        width: 270
+        height: 405
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c13bd7da3de47e7a0800000000000000
-      internalID: -6348018478699662564
+      spriteID: 00d3da40c3c3f5af0800000000000000
+      internalID: -405539212965888768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cristian_4
+      name: char_7
       rect:
         serializedVersion: 2
-        x: 47
-        y: 47
-        width: 17
-        height: 25
+        x: 810
+        y: 810
+        width: 270
+        height: 405
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ad64760161bd7f80800000000000000
-      internalID: -8107128723918787166
+      spriteID: 645938e3c77766c90800000000000000
+      internalID: -7176917580659845818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cristian_5
+      name: char_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 23
-        width: 16
-        height: 23
+        y: 405
+        width: 270
+        height: 405
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd4e8d82f3e03fea0800000000000000
-      internalID: -5840308627338369828
+      spriteID: 626c8468902800ab0800000000000000
+      internalID: -5043888605235722714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cristian_6
+      name: char_9
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 405
+        width: 270
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74ff28e7c5bf63e0800000000000000
+      internalID: -2058226634486451076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_10
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 405
+        width: 270
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320e037fb24e4c6e0800000000000000
+      internalID: -1818077472068935645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_11
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 405
+        width: 270
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b077a84f515e4e0800000000000000
+      internalID: -1953130723355980962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 23
+        width: 270
+        height: 405
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62e531bd6be5e3db0800000000000000
-      internalID: -4810303212532572634
+      spriteID: e412af32d33cf7560800000000000000
+      internalID: 7313778987236991310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cristian_7
+      name: char_13
       rect:
         serializedVersion: 2
-        x: 15
-        y: 23
-        width: 18
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b098acf09e949faf0800000000000000
-      internalID: -362177029685475061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cristian_8
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 23
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1251ca6eb0f30bab0800000000000000
-      internalID: -4994422666406652639
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cristian_9
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 23
-        width: 17
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9e364c06211056330800000000000000
-      internalID: 3703367447026623465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cristian_10
-      rect:
-        serializedVersion: 2
-        x: 47
+        x: 270
         y: 0
-        width: 17
-        height: 23
+        width: 270
+        height: 405
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d0c58b07db52f1d0800000000000000
-      internalID: -3318488996249222956
+      spriteID: 0afacf8aa727e7560800000000000000
+      internalID: 7313408716042973088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cristian_11
+      name: char_14
       rect:
         serializedVersion: 2
-        x: 15
+        x: 540
         y: 0
-        width: 18
-        height: 22
+        width: 270
+        height: 405
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38382f78cbd4889b0800000000000000
-      internalID: -5077723107730226301
+      spriteID: a095cbd890c734cc0800000000000000
+      internalID: -3727999686058157814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cristian_12
+      name: char_15
       rect:
         serializedVersion: 2
-        x: 32
+        x: 810
         y: 0
-        width: 16
-        height: 22
+        width: 270
+        height: 405
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7dedc677dba964060800000000000000
-      internalID: 6937402414553947863
+      spriteID: f0ed4d3393d6ea000800000000000000
+      internalID: 49096738397806095
       vertices: []
       indices: 
       edges: []
@@ -461,6 +575,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      char_0: -8360621857648827146
+      char_1: -105911007907788231
+      char_10: -1818077472068935645
+      char_11: -1953130723355980962
+      char_12: 7313778987236991310
+      char_13: 7313408716042973088
+      char_14: -3727999686058157814
+      char_15: 49096738397806095
+      char_2: -2554822408315757945
+      char_3: -4484386481748707659
+      char_4: -5703411853449480706
+      char_5: -3215313362485883606
+      char_6: -405539212965888768
+      char_7: -7176917580659845818
+      char_8: -5043888605235722714
+      char_9: -2058226634486451076
       cristian_0: 6079175049098401962
       cristian_1: 3728516098573172255
       cristian_10: -3318488996249222956
