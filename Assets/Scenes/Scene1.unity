@@ -364,8 +364,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 693049171}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -3739.6}
-  m_LocalScale: {x: 39.856308, y: 39.856308, z: 39.856308}
+  m_LocalPosition: {x: 0, y: 0, z: -5752.9}
+  m_LocalScale: {x: 82.83337, y: 82.83337, z: 82.83337}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1821142384}
@@ -373,7 +373,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -36.61599, y: 26.867138}
+  m_AnchoredPosition: {x: -36.616, y: 26.867}
   m_SizeDelta: {x: 100, y: 100.33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &693049173
@@ -550,12 +550,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865093472}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.73, y: -1.8297809, z: 0}
-  m_LocalScale: {x: 0.65529, y: 0.65529, z: 0.65529}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 751.41, y: -178.19, z: -5320.2}
+  m_LocalScale: {x: 53.437843, y: 53.437843, z: 53.437843}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 929547195}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &929547191
 GameObject:
@@ -608,7 +608,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 826.9, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -659,6 +659,8 @@ RectTransform:
   - {fileID: 1225456415}
   - {fileID: 1449609100}
   - {fileID: 941091139}
+  - {fileID: 1856938048}
+  - {fileID: 865093474}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -694,8 +696,8 @@ Transform:
   m_GameObject: {fileID: 941091138}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 171.57504, y: 25.5, z: -3704.7444}
-  m_LocalScale: {x: 20.914597, y: 20.914597, z: 20.914597}
+  m_LocalPosition: {x: 396.08, y: 24.026, z: -5680.4}
+  m_LocalScale: {x: 43.466805, y: 43.466805, z: 43.466805}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 929547195}
@@ -997,8 +999,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1174085264}
   m_LocalRotation: {x: -0, y: -0, z: -0.70710677, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 12.582748, y: 12.582748, z: 12.582748}
+  m_LocalPosition: {x: 0, y: 0, z: 2019.3}
+  m_LocalScale: {x: 26.150726, y: 26.150726, z: 26.150726}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1283983054}
@@ -1006,7 +1008,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -296, y: 124}
+  m_AnchoredPosition: {x: -748, y: 309}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1174085266
@@ -1242,8 +1244,8 @@ Transform:
   m_GameObject: {fileID: 1225456414}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 57.44748, y: -7.300003, z: 0}
-  m_LocalScale: {x: 20.914597, y: 20.914597, z: 20.914597}
+  m_LocalPosition: {x: 158.88, y: -44.144, z: 2019.3}
+  m_LocalScale: {x: 43.466805, y: 43.466805, z: 43.466805}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 929547195}
@@ -1489,6 +1491,16 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 8c43e84dbc4e55d4889ab0f4b8df9a60, type: 3}
   - id: gasp
     clip: {fileID: 8300000, guid: 50a909461c99fc4439c56b3659f365ca, type: 3}
+  - id: laugh
+    clip: {fileID: 8300000, guid: 5f384893015e8cb499621487cf48caa2, type: 3}
+  - id: bark
+    clip: {fileID: 8300000, guid: 7471376d311a76c4f87e7cfa764f1199, type: 3}
+  - id: uhoh
+    clip: {fileID: 8300000, guid: d898b20cce831b542b9b1bf142da6874, type: 3}
+  - id: oww
+    clip: {fileID: 8300000, guid: fb3dc8f1d103b1a40a2318e63c81b2c2, type: 3}
+  - id: rumble
+    clip: {fileID: 8300000, guid: b8bebb8ee87c8d445a7707220e046d97, type: 3}
 --- !u!4 &1331545099
 Transform:
   m_ObjectHideFlags: 0
@@ -1532,8 +1544,8 @@ Transform:
   m_GameObject: {fileID: 1449609099}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 264.3, y: 1, z: -3459.176}
-  m_LocalScale: {x: 20.914597, y: 20.914597, z: 20.914597}
+  m_LocalPosition: {x: 588.79, y: -26.894, z: -5170}
+  m_LocalScale: {x: 43.466805, y: 43.466805, z: 43.466805}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 929547195}
@@ -1664,8 +1676,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScScript
   steps:
   - type: 0
-    ccscript: '{effect(fadein, Narrator)} {pause(1000)}@Look at these imbeciles its
-      2026 and these kids are gonna ruin the world!{promt}'
+    ccscript: '{effect(fadein, Narrator)} {pause(1000)}@Look at these imbeciles{pause(1000)}
+      its 2026 and these kids are gonna ruin the world!{promt}'
     actor: {fileID: 693049173}
     waitTime: 0
     requirePrompt: 0
@@ -1777,6 +1789,64 @@ MonoBehaviour:
   - type: 0
     ccscript: '@Bro hes just fast Luke calm down{promt}'
     actor: {fileID: 1880406451}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@What ever{pasue(1000)} lets just focus on the wierd button.{promt}'
+    actor: {fileID: 1449609101}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@{sound(laugh_loop)}There is a dog and it''ll jump on the IDIOT!{promt}'
+    actor: {fileID: 693049173}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@JUST WATCH THIS!{pause(100)}'
+    actor: {fileID: 693049173}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '{effect(swoop, Dog)}{sound(bark)}{promt}'
+    actor: {fileID: 1856938050}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@{sound(oww)}{sound(gasp)}!{pause(500)}{pause(500)}!{pause(500)}!{pause(500)}GET
+      THIS THING OFF ME!{promt}'
+    actor: {fileID: 1225456416}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '{sound(uhoh)}{promt}'
+    actor: {fileID: 1856938050}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@...{pause(1500)}Gravity has been...{sound(laugh)} destroyed{pause(1000)}We''re
+      all doomed{promt}'
+    actor: {fileID: 693049173}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '{sound(rumble)}@Uh guys?{pasue(500)} whats that rumbling{promt}'
+    actor: {fileID: 941091140}
     waitTime: 0
     requirePrompt: 0
     soundId: 
@@ -1894,6 +1964,135 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1856938047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1856938048}
+  - component: {fileID: 1856938051}
+  - component: {fileID: 1856938050}
+  - component: {fileID: 1856938049}
+  m_Layer: 0
+  m_Name: Dog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1856938048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856938047}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 685.64, y: -488.91, z: -5170}
+  m_LocalScale: {x: 58.881767, y: 58.881767, z: 58.881767}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 929547195}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1856938049
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856938047}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 10f67187c7e52524faa973d4be9f4556, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1856938050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856938047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc00d530493b8f4fb7f6a16d421725d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterRef
+  id: Dog
+  animator: {fileID: 1856938049}
+--- !u!212 &1856938051
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856938047}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -694
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -3727999686058157814, guid: 5c91459f8ec06a547a3eea7cefa6e2bc, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.7, y: 2.7}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
 --- !u!1 &1877266245
 GameObject:
   m_ObjectHideFlags: 0
@@ -1929,6 +2128,7 @@ MonoBehaviour:
   - {fileID: 941091140}
   - {fileID: 1880406451}
   - {fileID: 1449609101}
+  - {fileID: 1856938050}
 --- !u!4 &1877266247
 Transform:
   m_ObjectHideFlags: 0
@@ -1972,8 +2172,8 @@ Transform:
   m_GameObject: {fileID: 1880406449}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 177.1, y: -60.9, z: -3459.176}
-  m_LocalScale: {x: 20.914597, y: 20.914597, z: 20.914597}
+  m_LocalPosition: {x: 407.56, y: -155.54, z: -5170}
+  m_LocalScale: {x: 43.466805, y: 43.466805, z: 43.466805}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 929547195}
@@ -2206,8 +2406,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049717458}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0000863, y: 1.0000863, z: 1.0000863}
+  m_LocalPosition: {x: 0, y: 0, z: 2019.3}
+  m_LocalScale: {x: 2.0784793, y: 2.0784793, z: 2.0784793}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 370636750}
@@ -2215,7 +2415,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -320, y: -178.86}
+  m_AnchoredPosition: {x: -785.0187, y: -423}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2049717460
@@ -2461,4 +2661,3 @@ SceneRoots:
   - {fileID: 929547195}
   - {fileID: 35047892}
   - {fileID: 2017730845}
-  - {fileID: 865093474}
