@@ -1837,15 +1837,24 @@ MonoBehaviour:
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '@...{pause(1500)}Gravity has been...{sound(laugh)} destroyed{pause(1000)}We''re
-      all doomed{promt}'
+    ccscript: '@...{pause(1500)}Gravity has been...{sound(laugh)} destroyed{pause(1000)}
+      We''re all doomed{promt}'
     actor: {fileID: 693049173}
     waitTime: 0
     requirePrompt: 0
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '{sound(rumble)}@Uh guys?{pasue(500)} whats that rumbling{promt}'
+    ccscript: '{sound(rumble_loop)}{pause(500)}@.{pause(500)}.{pause(500)} Uh guys?{pasue(500)}
+      whats that rumbling{promt}'
+    actor: {fileID: 941091140}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '{sound(rumble_loop)}{pause(500)}@.{pause(500)}.{pause(500)} Uh guys?{pasue(500)}
+      whats that rumbling{promt}'
     actor: {fileID: 941091140}
     waitTime: 0
     requirePrompt: 0
@@ -1883,8 +1892,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1821142384}
   - component: {fileID: 1821142385}
+  - component: {fileID: 1821142387}
+  - component: {fileID: 1821142386}
   m_Layer: 0
-  m_Name: Screenshot 2026-05-16 21-26-56_0
+  m_Name: Map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1964,6 +1975,42 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!95 &1821142386
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821142383}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ce234711614701e479bb6f1eb96975ea, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1821142387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821142383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc00d530493b8f4fb7f6a16d421725d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterRef
+  id: Maps
+  animator: {fileID: 1821142386}
 --- !u!1 &1856938047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1992,7 +2039,7 @@ Transform:
   m_GameObject: {fileID: 1856938047}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 685.64, y: -488.91, z: -5170}
+  m_LocalPosition: {x: 690, y: -506, z: -5170}
   m_LocalScale: {x: 58.881767, y: 58.881767, z: 58.881767}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2129,6 +2176,7 @@ MonoBehaviour:
   - {fileID: 1880406451}
   - {fileID: 1449609101}
   - {fileID: 1856938050}
+  - {fileID: 1821142387}
 --- !u!4 &1877266247
 Transform:
   m_ObjectHideFlags: 0
