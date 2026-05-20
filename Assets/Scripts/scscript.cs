@@ -178,6 +178,11 @@ public class ScScript : MonoBehaviour
 
                     break;
                 }
+            case "font":
+                {
+                    ui?.SetFont(arg);
+                    break;
+                }
         }
     }
 

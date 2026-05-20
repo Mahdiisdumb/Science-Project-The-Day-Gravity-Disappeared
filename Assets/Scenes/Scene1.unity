@@ -958,6 +958,13 @@ MonoBehaviour:
   speakerText: {fileID: 1217429215}
   dialogueText: {fileID: 2120828962}
   promptIcon: {fileID: 2049717458}
+  fonts:
+  - id: normal
+    font: {fileID: 11400000, guid: e6a41bbcb36ab2b4b8f54be9edcdf0c7, type: 2}
+  - id: scared
+    font: {fileID: 11400000, guid: d1cde6890a7fed24f96ab6d5df406411, type: 2}
+  - id: pis
+    font: {fileID: 11400000, guid: dcde3269f2f35e64281d3b74d8f59e08, type: 2}
 --- !u!4 &1149054482
 Transform:
   m_ObjectHideFlags: 0
@@ -1678,8 +1685,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScScript
   steps:
   - type: 0
-    ccscript: '{effect(fadein, Narrator)}{pause(1000)}@Its 2026 and these kids are
-      gonna ruin the world!{pause(1000)}'
+    ccscript: '{font(normal)}{effect(fadein, Narrator)}{pause(1000)}@Its 2026 and
+      these kids are gonna ruin the world!{pause(1000)}'
     actor: {fileID: 693049173}
     waitTime: 0
     requirePrompt: 0
@@ -1884,8 +1891,15 @@ MonoBehaviour:
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '{sound(!)}{font(scared)}@'
+    ccscript: '{sound(!)}{font(scared)}@WHAT IS HAPPENING *wheeze wheeze*{promt}'
     actor: {fileID: 1225456416}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '{font(normal)}'
+    actor: {fileID: 1880406451}
     waitTime: 0
     requirePrompt: 0
     soundId: 
