@@ -1501,6 +1501,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: fb3dc8f1d103b1a40a2318e63c81b2c2, type: 3}
   - id: rumble
     clip: {fileID: 8300000, guid: b8bebb8ee87c8d445a7707220e046d97, type: 3}
+  - id: '!'
+    clip: {fileID: 8300000, guid: 0cd619755df517a448c294b130c69bad, type: 3}
 --- !u!4 &1331545099
 Transform:
   m_ObjectHideFlags: 0
@@ -1676,15 +1678,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScScript
   steps:
   - type: 0
-    ccscript: '{effect(fadein, Narrator)} {pause(1000)}@Look at these imbeciles{pause(1000)}
-      its 2026 and these kids are gonna ruin the world!{promt}'
+    ccscript: '{effect(fadein, Narrator)}{pause(1000)}@Its 2026 and these kids are
+      gonna ruin the world!{pause(1000)}'
     actor: {fileID: 693049173}
     waitTime: 0
     requirePrompt: 0
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '@They dont know it yet but It''ll happen!{promt}'
+    ccscript: Just Look at these IDIOTS! {pause(1000)}THEY LOOK LIKE THERE ABOUT
+      TO BLOW UP THE WORLD!{promt}
+    actor: {fileID: 693049173}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@They dont know so lets just watch and see thier idiocy!{promt}'
     actor: {fileID: 693049173}
     waitTime: 0
     requirePrompt: 0
@@ -1853,9 +1863,29 @@ MonoBehaviour:
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '{sound(rumble_loop)}{pause(500)}@.{pause(500)}.{pause(500)} Uh guys?{pasue(500)}
-      whats that rumbling{promt}'
-    actor: {fileID: 941091140}
+    ccscript: '{effect(shake, Maps)}'
+    actor: {fileID: 1821142387}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '*looks down*{promt}'
+    actor: {fileID: 1449609101}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@Uhh guys{pause(1000)} we should look down{promt}'
+    actor: {fileID: 1449609101}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '{sound(!)}{font(scared)}@'
+    actor: {fileID: 1225456416}
     waitTime: 0
     requirePrompt: 0
     soundId: 
