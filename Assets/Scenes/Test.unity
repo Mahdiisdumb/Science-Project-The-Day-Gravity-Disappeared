@@ -916,6 +916,11 @@ MonoBehaviour:
   speakerText: {fileID: 1148617564}
   dialogueText: {fileID: 748859232}
   promptIcon: {fileID: 434388144}
+  fonts:
+  - id: normal
+    font: {fileID: 11400000, guid: e6a41bbcb36ab2b4b8f54be9edcdf0c7, type: 2}
+  - id: boss
+    font: {fileID: 11400000, guid: d1cde6890a7fed24f96ab6d5df406411, type: 2}
 --- !u!1 &1031488456
 GameObject:
   m_ObjectHideFlags: 0
@@ -1500,15 +1505,22 @@ MonoBehaviour:
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '@Who is me?!{sound(Laugh)}{sound(boss_loop)}{pause(1000)}I AM A LIVING
-      NIGHTMARE!{pause(600)} I''LL KILL YOU!'
+    ccscript: '@Who is me?!{sound(Laugh)}{sound(boss_loop)}'
     actor: {fileID: 8379908}
     waitTime: 0
     requirePrompt: 1
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '@Uhh I dont really think so.{pause(1000)} I think i could just.{pause(1000)}'
+    ccscript: '{font(boss)}I AM A LIVING NIGHTMARE!{pause(600)} I''LL KILL YOU!{promt}'
+    actor: {fileID: 8379908}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '{font(normal)}@Uhh I dont really think so.{pause(1000)} I think i
+      could just.{pause(1000)}'
     actor: {fileID: 1359718738}
     waitTime: 0
     requirePrompt: 0
@@ -1522,7 +1534,7 @@ MonoBehaviour:
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '@Ironic i killed him{sound(yay_loop)}{effect(spin, Mahdi)}{promt}'
+    ccscript: '@Ironic i killed him{sound(yay_loop)}{effect(spin_loop, Mahdi)}{promt}'
     actor: {fileID: 1359718738}
     waitTime: 0
     requirePrompt: 0

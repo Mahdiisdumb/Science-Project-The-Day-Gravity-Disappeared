@@ -515,6 +515,7 @@ MonoBehaviour:
   speakerText: {fileID: 1148617564}
   dialogueText: {fileID: 748859232}
   promptIcon: {fileID: 0}
+  fonts: []
 --- !u!1 &1031488456
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,7 +1203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScScript
   steps:
   - type: 0
-    ccscript: '{sound(gasp)}@Your probably wondering why does this look so bad?'
+    ccscript: '{sound(gasp)}@Your probably "wondering why am I here?"'
     actor: {fileID: 1359718738}
     waitTime: 0
     requirePrompt: 1
@@ -1318,14 +1319,21 @@ MonoBehaviour:
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '@Im just mad bro{sound(laugh)} MY TEAM DID NOTING!'
+    ccscript: '@Im just mad bro{sound(laugh)} MY TEAM DID NOTING!{promt}'
     actor: {fileID: 1359718738}
     waitTime: 0
     requirePrompt: 1
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '{scene(0)}'
+    ccscript: Now lets roll the credits!{pasue(900)}
+    actor: {fileID: 1359718738}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '{scene(6)}'
     actor: {fileID: 1359718738}
     waitTime: 0
     requirePrompt: 1

@@ -1510,6 +1510,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: b8bebb8ee87c8d445a7707220e046d97, type: 3}
   - id: '!'
     clip: {fileID: 8300000, guid: 0cd619755df517a448c294b130c69bad, type: 3}
+  - id: dash
+    clip: {fileID: 8300000, guid: f594538ee1610b443b8f6e49e15990e5, type: 3}
 --- !u!4 &1331545099
 Transform:
   m_ObjectHideFlags: 0
@@ -1870,7 +1872,7 @@ MonoBehaviour:
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '{effect(shake, Maps)}'
+    ccscript: '{effect(shake, Maps)}{promt}'
     actor: {fileID: 1821142387}
     waitTime: 0
     requirePrompt: 0
@@ -1898,7 +1900,42 @@ MonoBehaviour:
     soundId: 
     effectId: 
   - type: 0
-    ccscript: '{font(normal)}'
+    ccscript: '{font(normal)}@THIS IS ALL{pasue(500)} YOUR {pause(500)}FAULT {pause(500)}MAHDI!!{promt}'
+    actor: {fileID: 1880406451}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@8 minutes later of pure arguement{promt}'
+    actor: {fileID: 693049173}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '{effect(nighttime, Maps)}'
+    actor: {fileID: 1821142387}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@{pause(500)}..{pause(500)}. THE SUN COLLAPSED!{promt}'
+    actor: {fileID: 1225456416}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '@Guys calm down lets just see what happened{pasuse(1000)}{effect(dash,Luke)}{sound(dash)}'
+    actor: {fileID: 941091140}
+    waitTime: 0
+    requirePrompt: 0
+    soundId: 
+    effectId: 
+  - type: 0
+    ccscript: '{scene(1)}'
     actor: {fileID: 1880406451}
     waitTime: 0
     requirePrompt: 0
@@ -2007,7 +2044,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -726
+  m_SortingOrder: -721
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2598404289426181653, guid: 172bde80b70a88e4aac717a4579d1fc3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2415,7 +2452,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.0028034868, g: 0.03442061, b: 0.066037714, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

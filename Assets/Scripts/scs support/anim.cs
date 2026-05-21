@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,13 +14,21 @@ public class EffectController : MonoBehaviour
 
         foreach (var c in characters)
         {
-            if (c == null) continue;
+            if (c == null)
+                continue;
+
             map[c.id.ToLower()] = c;
         }
     }
 
-    public void Play(string effect, string targetId)
+    public void Play(string rawEffect, string targetId)
     {
+        if (string.IsNullOrWhiteSpace(targetId))
+        {
+            Debug.LogWarning("No target specified.");
+            return;
+        }
+
         if (!map.TryGetValue(targetId.ToLower(), out var c))
         {
             Debug.LogWarning("Missing character: " + targetId);
@@ -32,25 +41,42 @@ public class EffectController : MonoBehaviour
             return;
         }
 
-        StartCoroutine(PlayAnim(c, effect));
+        ParseEffect(rawEffect, out string animName, out HashSet<string> tags);
+
+        StartCoroutine(PlayAnim(c, animName, tags));
     }
 
-    System.Collections.IEnumerator PlayAnim(CharacterRef c, string effect)
+    void ParseEffect(string raw, out string animName, out HashSet<string> tags)
     {
-        var anim = c.animator;
+        tags = new HashSet<string>();
 
-        // enable only when needed
+        string[] split = raw.Split('_');
+
+        animName = split[0];
+
+        for (int i = 1; i < split.Length; i++)
+            tags.Add(split[i].ToLower());
+    }
+
+    IEnumerator PlayAnim(CharacterRef c, string animName, HashSet<string> tags)
+    {
+        Animator anim = c.animator;
+
         anim.enabled = true;
 
-        anim.Play(effect);
+        anim.Play(animName);
 
-        // wait until animation starts playing
         yield return null;
 
-        // wait for it to finish
-        yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length);
+        bool loop = tags.Contains("loop");
 
-        // disable again (freeze character)
-        anim.enabled = false;
+        if (!loop)
+        {
+            yield return new WaitForSeconds(
+                anim.GetCurrentAnimatorStateInfo(0).length
+            );
+
+            anim.enabled = false;
+        }
     }
 }
